@@ -22,3 +22,8 @@ function prependDriver(name){
   shiftname.unshift("Arnold")
   return shiftname
 }
+function removeLastDriver(name){
+  var letname = [...drivers];
+  letname.pop("Garfield")
+  return letname
+}
