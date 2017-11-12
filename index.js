@@ -19,6 +19,6 @@ function appendDriver(name){
 }
 function prependDriver(name){
   var shiftname = [...drivers];
-  shiftname.shift("Arnold")
+  shiftname.unshift("Arnold")
   return shiftname
 }
