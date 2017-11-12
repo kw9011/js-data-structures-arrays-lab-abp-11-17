@@ -27,3 +27,8 @@ function removeLastDriver(name){
   letname.pop("Garfield")
   return letname
 }
+function removeFirstDriver(name){
+  var yesname = [...drivers];
+  yesname.shift("Milo")
+  return yesname
+}
