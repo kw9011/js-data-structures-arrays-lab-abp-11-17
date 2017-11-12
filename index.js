@@ -13,5 +13,7 @@ function destructivelyRemoveFirstDriver(name){
   drivers.shift("Milo")
 }
 function appendDriver(name)
-{const addADriver = [...drivers, name]}
-appendDriver('Broom');
+{const addADriver = [...drivers, name]
+  addADriver.push("Broom")
+return addADriver}
+
